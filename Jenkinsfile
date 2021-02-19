@@ -1,4 +1,4 @@
-@Library("jenkinspipelinerepo") _
+@Library("jenkinspipelinerepo")_
 
 stage('Demo') {
         echo 'Hello world'
