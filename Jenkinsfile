@@ -1,6 +1,7 @@
-@Library("jenkinspipelinerepo@main")
+@Library("jenkinspipelinerepo")_
 
- stage('Demo') {
-     echo 'Hello world'
-     sayHello 'Dave'
+stage('Demo') {
+        echo 'Hello world'
+        sayHello 'Dave'
  }
+ 
