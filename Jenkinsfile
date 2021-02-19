@@ -1,16 +1,6 @@
-@Library("jenkinspipelinerepo@main")
+@Library("jenkinspipelinerepo@main")_
 
-pipeline {
-    agent none
-    stages {
-        stage ('Example') {
-            steps {
-                // log.info 'Starting' 
-                script { 
-                    log.info 'Starting'
-                    log.warning 'Nothing to do!'
-                }
-            }
-        }
-    }
-}
+ stage('Demo') {
+     echo 'Hello world'
+     sayHello 'Dave'
+ }
