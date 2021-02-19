@@ -1,7 +1,5 @@
-@Library("jenkinspipelinerepo")
-
-stage('Demo') {
-        echo 'Hello world'
-        sayHello 'Dave'
- }
- 
+@Library('manjunathrreddy/jenkinspipelinerepo') _
+standardPipeline {
+    projectName = "Project1"
+    serverDomain = "Project1 Server Domain"
+}
