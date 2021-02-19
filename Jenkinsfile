@@ -1,4 +1,4 @@
-@Library("jenkinspipelinerepo") _
+@Library("jenkinspipelinerepo@main")
 
 pipeline {
     agent none
